@@ -26,7 +26,7 @@ const CreateAmazonSecurityGroupForm = ({ recordId }) => (
 );
 
 CreateAmazonSecurityGroupForm.propTypes = {
-  recordId: PropTypes.number.isRequired,
+  recordId: PropTypes.string.isRequired,
 };
 
 export default CreateAmazonSecurityGroupForm;
